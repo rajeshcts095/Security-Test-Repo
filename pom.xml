@@ -11,6 +11,7 @@
 	<groupId>com.example.security</groupId>
 	<artifactId>Secure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Secure</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -51,6 +52,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>secure-rest-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
